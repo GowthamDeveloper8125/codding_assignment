@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.mainContainer {
+    background-color: #F58b9d;
+    height: 100%;
+    width: 100%;
+    color: #154c79;
+    padding: 20px;
+}
+
+.cardContainer {
+    align-items: center;
+}
+
+.iconContainer {
+    align-items: center;
+}
+
+.icon {
+    font-size: 18px;
+    color: #154c79;
+    padding: 20px;
+    border: 2px solid #154c79;
+    border-radius: 50px;
+}
+
+.skillIcon {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.secoundContainer {
+    width: 100%;
+    border-bottom: 3px solid #154c79;
+}
+
+.secondContainer-part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    border-right: 3px solid #154c79;
+}
+
+.secondContainer-part-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.para-2 {
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+
+span {
+    font-weight: bold;
+}
+
+.dotContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+
+}
+
+.dot {
+    background-color: #154c79;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.HRline {
+    border: 3px solid #154c79;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.skills {
+    font-size: 10px;
+    width: 60px;
+}
+
+.skillsContainer-prt-2 {
+    font-size: 10px;
+}
+
+.interest-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.interests-icons {
+    color: #F58b9d;
+    font-size: 10px;
+    padding: 8px;
+    border: 2px solid #154c79;
+    border-radius: 50px;
+
+    background-color: #154c79;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
